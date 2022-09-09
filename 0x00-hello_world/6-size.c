@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  *mian - Printing the size of many var type
+ *
  *Return: Alwayes 0 (Successful)
  */
 int main(void)
