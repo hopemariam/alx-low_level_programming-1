@@ -1,11 +1,8 @@
 #!/bin/bash
 #include<stdio.h>
-
 /**
- * 
- mian - printing 
+ * mian - Printing 
  *
- 
  * 
  Return: Always 0 (Successful)
  */
