@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *mian - Printing the size of many var type
+ *mian - Printing the sizeof many var type
  *
- *Return: Alwayes 0 (Successful)
+ *Return: Always 0 (Successful)
  */
 int main(void)
 {
