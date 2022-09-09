@@ -1,10 +1,13 @@
 #!/bin/bash
-#include<stdio.h>
+#include <stdio.h>
+
 /**
+ *
  * mian - Printing 
  *
  * 
  Return: Always 0 (Successful)
+ *
  */
 int main(void)
 {
