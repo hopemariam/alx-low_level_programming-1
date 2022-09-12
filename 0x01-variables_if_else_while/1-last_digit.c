@@ -3,9 +3,9 @@
 #include<stdio.h>
 
 /**
-*main - Print if number is positive, zero or negative
+*main - Print random number to variable
 *
-*Return: Always (success)
+*Return: Always (successful)
 */
 int main(void)
 {
