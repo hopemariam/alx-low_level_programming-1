@@ -1,23 +1,23 @@
 #include <stdio.h>
+
 /**
 *main - Prints a series of numbers with commas
 *
-*Return: Always 0(success)
+*Return: Always (success)
 */
 int main(void)
-
 {
 	int c;
 
 	for(c = '0'; c <= '9'; c++)
 	{
-		putchar(c + '0');
+	putchar(c);
 	
-		if(c < '9')
-		{
+	if(c!= '9')	
+	{
 		putchar(',');
 		putchar('');	
-		}
+	}
 	}
 
 	putchar('\n');
