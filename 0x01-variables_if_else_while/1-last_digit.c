@@ -9,8 +9,8 @@
 */
 int main(void)
 {
-	int n;
-	char last[] = "Last digit of";
+int n;
+char last[] = "Last digit of";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
