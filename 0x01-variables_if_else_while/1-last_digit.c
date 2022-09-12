@@ -7,6 +7,7 @@
 *Return: Always (successful)
 */
 int main(void)
+
 {	
 	int n;
 	char last[] = "Last digit of";
