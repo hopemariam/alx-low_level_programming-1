@@ -6,7 +6,6 @@
 *Return: Always (success)
 */
 int main(void)
-
 {
 
 	int c;
