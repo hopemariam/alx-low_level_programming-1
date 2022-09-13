@@ -5,7 +5,6 @@
 *
 *Return: returns zero at the end
 */
-
 int main (void)
 
 {
@@ -19,6 +18,7 @@ int main (void)
 			{
 				putchar(i + '0');
 				putchar(j + '0');
+
 				if (i != 8)
 				{
 				putchar(',');
