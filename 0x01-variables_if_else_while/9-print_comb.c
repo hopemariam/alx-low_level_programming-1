@@ -1,25 +1,24 @@
 #include <stdio.h>
-
+#include <unistd.h>
 /**
-*main - Prints a series of numbers with commas
-*
-*Return: Always (success)
-*/
+ * main - Entry point
+ * Description: Print base 16 numbers
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
-	int c;
+	char c;
+	char d = '0';
 
-	for (c = '0'; c <= '9'; c++)
-	{	
-		putchar(c);
-	
-	if (c != '9')	
-	{	
-		putchar(',');
-		putchar( ' ');	
+	while (d <= '9')
+	{
+		putchar(d);
+		d++;
 	}
-       }
-
+	for (c = 'a'; c <= 'f'; c++)
+	{
+		putchar(c);
+	}
 	putchar('\n');
 	return (0);
 }
