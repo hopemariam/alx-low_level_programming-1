@@ -1,39 +1,31 @@
-#include<stdio.h>
-
+#include <stdio.h>
+#include <unistd.h>
 /**
-*main - prints sindle digit numbers starting from 0
-*
-*Return: Always (success)
-*/
+ * main - Entyr point
+ * Description: prints two digits combination
+ * Return: Always 0 (success)
+ */
 int main(void)
-
 {
+	int c, i;
 
-	int i, j;
-
-	for (i = '0'; i <= '9'; i++)
-	
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (i = 1; j <= 9 j++)
-
+		for (i = '0'; i <= '9'; i++)
 		{
-			if (j>i)
-
+			if (c < i)
 			{
-				
-				putchar(i + '0');
-				putchar(j + '0');
+				putchar(c);
+				putchar(i);
 
-				if (i != 8)
-
-				putchar( ',' );
-				putchar( ' ');
-
-			}				
+				if (c != '8' || (c == '8' && i != '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
-		
 	}
-}
 	putchar('\n');
 	return (0);
 }
