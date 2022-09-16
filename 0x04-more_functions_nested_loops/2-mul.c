@@ -1,4 +1,5 @@
-#include "holberton.h"
+#include "mian.h"
+#include <stdio.h>
 
 /**
  * mul - gives the product of a and b
