@@ -1,5 +1,3 @@
-#include "mian.h"
-
 #include <stdio.h>
 
 int main(void)
