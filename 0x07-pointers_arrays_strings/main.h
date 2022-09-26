@@ -1,6 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-
 /**
  * File: holberton.h
  * Auth: Firdaus
