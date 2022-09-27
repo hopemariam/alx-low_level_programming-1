@@ -1,1 +1,1 @@
-This is c pointer array
+This is pinter function
