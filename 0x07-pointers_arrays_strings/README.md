@@ -1,1 +1,1 @@
-This is pinter function
+This is array function
