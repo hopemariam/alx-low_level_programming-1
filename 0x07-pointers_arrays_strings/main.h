@@ -4,7 +4,7 @@
  *
  *  * File: holberton.h
  *
- *   * Auth: Brennan D Baraban
+ *   * Auth: Walte Asmare
  *
  *    * Desc: Header file containing prototypes for all functions
  *
