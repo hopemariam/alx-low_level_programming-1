@@ -1,1 +1,1 @@
-This is array function
+This is array c function
