@@ -1,7 +1,7 @@
-#define HOLBERTON_H
+#define MAIN_H 
 
 /**
- * File: holberton.h
+ * File: main.h
  * Auth: Walte
  * Desc: Header file containing prototypes for all functions
  *       
