@@ -1,22 +1,19 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
- * *_strcpy -  copies the string pointed to by src
- * @dest: char type string
- * @src: char type string
- * Description: Copy the string pointed to by pointer `src` to
- * the buffer pointed to by `dest`
- * Return: Pointer to `dest
+ * _strcpy - print reverse characters.
+ * @dest: Array
+ * @src: - Number of array
+ * Return: Always 0.
  */
-
 char *_strcpy(char *dest, char *src)
 {
-	int i = -1;
+	int i;
 
-	do {
-		i++;
+	for (i = 0; src[i]; i++)
+	{
 		dest[i] = src[i];
-	} while (src[i] != '\0');
-
+	}
+	dest[i] = src[i];
 	return (dest);
+
 }
